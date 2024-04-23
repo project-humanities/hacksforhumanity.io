@@ -26,7 +26,7 @@ export default function RootLayout({
         )}
       >
         <Navbar />
-        <main className="max-auto bg-neutral w-full max-w-screen-2xl px-8 py-6 md:px-12 ">
+        <main className="max-auto bg-neutral w-full max-w-screen-2xl px-8 py-0 md:px-12 ">
           {children}
         </main>
         <Footer />
