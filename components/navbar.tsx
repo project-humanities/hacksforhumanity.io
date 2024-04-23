@@ -31,21 +31,21 @@ const Navbar = () => {
 
         <ul
           className={cn(
-            'flex-col space-x-4 md:flex-row',
+            'flex flex-col space-x-4 md:flex-row',
             !isOpen && 'hidden md:flex',
           )}
         >
           <li>
-            <Link href="/about">About</Link>
+            <Link href="#about">About</Link>
           </li>
           <li>
-            <Link href="/faq">FAQ</Link>
+            <Link href="#gallery">Gallery</Link>
           </li>
           <li>
-            <Link href="/sponsors">Sponsors</Link>
+            <Link href="#sponsors">Sponsors</Link>
           </li>
           <li>
-            <Link href="/contact">Contact</Link>
+            <Link href="#contact">Contact</Link>
           </li>
         </ul>
       </nav>
