@@ -17,6 +17,14 @@ const config = {
       },
     },
     extend: {
+      colors: {
+        blue: '#025492',
+        'light-blue': '#65C6F4',
+        yellow: '#FFB802',
+        white: '#FFFFFF',
+        black: '#000000',
+        gray: '#8B8686',
+      },
       keyframes: {
         'accordion-down': {
           from: { height: '0' },
